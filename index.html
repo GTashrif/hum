@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Apply | HUM</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html" id="selected-url">Apply</a>
+            <a href="index.html">Status</a>
+            <a href="index.html">Contact Us</a>
+        </header>
+        
+        <form>
+            <input type="text" id="name" placeholder="Name"><br>
+            <input type="email" id="email" placeholder="Email"><br>
+
+            <label for="file">Question:</label>
+            <input type="file" id="file1"><br>
+
+            <label for="file">Other Notes or Course Materials:</label>
+            <input type="file" id="file2"><br>
+
+            <input type="reset" class="reset">
+            <button id="submit" onclick="handleSubmit()">Continue</button>
+        </form>
+    </div>
+</body>
+</html>

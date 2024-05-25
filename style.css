@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-image: image-set('bg.gif');
+}
+
+.container{
+    background: white;
+    width: 50%;
+    display:block;
+    padding-bottom: 2%;
+    border-radius: 2%;
+    margin-top: 10%;
+    margin-left: 25%;
+}
+
+header{
+    text-align: center;
+    font-size:4cqmin;
+    font-weight: 700;
+    -webkit-box-shadow: 0px 0px 15px 0px #000000; 
+    box-shadow: 0px 0px 15px 0px #000000;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 2%;
+    color: #028391;
+}
+
+#selected-url{
+    color: #01204E;
+    text-decoration: underline;
+}
+
+a:hover{
+    color: #4e0101;
+}
+
+form{
+    width: 397px;
+    height: 285px;
+    margin: 2%;
+    margin-left: 20%;
+    font-size: "12px";
+}
+
+input{
+    border-top-width: 0px;
+    padding-top: 10px;
+    padding-right: 130px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    margin-bottom: 5%;
+}
+
+#file{
+    cursor: pointer;
+    padding-right: 0px;
+}
+
+button, .reset{
+    margin-top: 5px;
+    float: right;
+    padding: 5px 20px 5px 20px;
+    border: none;
+    background: #01204E;
+    color: white;
+    border-radius: 20px;
+}
+
+.reset{
+    float: left;
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+button:hover{
+    background: green;
+}
+
+.reset:hover{
+    background: red;
+}
+
+button a:hover{
+    color: white;
+}
+
+@media screen and (max-width: 680px){
+    .container{
+    background: white;
+    width: 70%;
+    display: block;
+    padding-bottom: 2%;
+    border-radius: 2%;
+    margin-top: 20%;
+    margin-left: 15%;
+    }
+    
+    header{
+        font-size: 20px;
+        padding: 5%;
+    }
+
+    a{
+        margin: 4%;
+    }
+
+    form{
+        width: 290px;
+        height: 285px;
+        margin: 15px;
+        margin-left: 17%;
+        font-size: "12px";
+    }
+}
